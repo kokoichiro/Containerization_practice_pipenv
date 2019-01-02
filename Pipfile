@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+jupyter = "*"
+scikit-learn = "*"
+seaborn = "*"
+pandas = "*"
+dask = "*"
+"httplib2" = "*"
+scipy = "*"
+gcsfs = "*"
+"oauth2client" = "*"
+google-cloud = "*"
+
+[requires]
+python_version = "3.5"
